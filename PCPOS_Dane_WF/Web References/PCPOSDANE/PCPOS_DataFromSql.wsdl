@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PcPosParagony">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ip" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PcPosParagonyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PcPosParagonyResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PcPosParDaty">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ip" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DataStart" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DataStop" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PcPosParDatyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PcPosParDatyResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PcPosParItems">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ip" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="posid" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="receiptid" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PcPosParItemsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PcPosParItemsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaSklepow">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListaSklepowResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="WebMetOdczytajKonfig">
+        <s:complexType />
+      </s:element>
+      <s:element name="WebMetOdczytajKonfigResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WebMetOdczytajKonfigResult" type="tns:Information" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Information">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="SQLSRV" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DBNAME" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="WebMetOdczytajListęSklepów">
+        <s:complexType />
+      </s:element>
+      <s:element name="WebMetOdczytajListęSklepówResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WebMetOdczytajListęSklepówResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WebMetDostępDB">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ipsrv" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WebMetDostępDBResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WebMetDostępDBResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="PcPosParagonySoapIn">
+    <wsdl:part name="parameters" element="tns:PcPosParagony" />
+  </wsdl:message>
+  <wsdl:message name="PcPosParagonySoapOut">
+    <wsdl:part name="parameters" element="tns:PcPosParagonyResponse" />
+  </wsdl:message>
+  <wsdl:message name="PcPosParDatySoapIn">
+    <wsdl:part name="parameters" element="tns:PcPosParDaty" />
+  </wsdl:message>
+  <wsdl:message name="PcPosParDatySoapOut">
+    <wsdl:part name="parameters" element="tns:PcPosParDatyResponse" />
+  </wsdl:message>
+  <wsdl:message name="PcPosParItemsSoapIn">
+    <wsdl:part name="parameters" element="tns:PcPosParItems" />
+  </wsdl:message>
+  <wsdl:message name="PcPosParItemsSoapOut">
+    <wsdl:part name="parameters" element="tns:PcPosParItemsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaSklepowSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaSklepow" />
+  </wsdl:message>
+  <wsdl:message name="ListaSklepowSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaSklepowResponse" />
+  </wsdl:message>
+  <wsdl:message name="WebMetOdczytajKonfigSoapIn">
+    <wsdl:part name="parameters" element="tns:WebMetOdczytajKonfig" />
+  </wsdl:message>
+  <wsdl:message name="WebMetOdczytajKonfigSoapOut">
+    <wsdl:part name="parameters" element="tns:WebMetOdczytajKonfigResponse" />
+  </wsdl:message>
+  <wsdl:message name="WebMetOdczytajListęSklepówSoapIn">
+    <wsdl:part name="parameters" element="tns:WebMetOdczytajListęSklepów" />
+  </wsdl:message>
+  <wsdl:message name="WebMetOdczytajListęSklepówSoapOut">
+    <wsdl:part name="parameters" element="tns:WebMetOdczytajListęSklepówResponse" />
+  </wsdl:message>
+  <wsdl:message name="WebMetDostępDBSoapIn">
+    <wsdl:part name="parameters" element="tns:WebMetDostępDB" />
+  </wsdl:message>
+  <wsdl:message name="WebMetDostępDBSoapOut">
+    <wsdl:part name="parameters" element="tns:WebMetDostępDBResponse" />
+  </wsdl:message>
+  <wsdl:portType name="PCPOS_DataFromSqlSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PcPosParagony">
+      <wsdl:input message="tns:PcPosParagonySoapIn" />
+      <wsdl:output message="tns:PcPosParagonySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PcPosParDaty">
+      <wsdl:input message="tns:PcPosParDatySoapIn" />
+      <wsdl:output message="tns:PcPosParDatySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PcPosParItems">
+      <wsdl:input message="tns:PcPosParItemsSoapIn" />
+      <wsdl:output message="tns:PcPosParItemsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaSklepow">
+      <wsdl:input message="tns:ListaSklepowSoapIn" />
+      <wsdl:output message="tns:ListaSklepowSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WebMetOdczytajKonfig">
+      <wsdl:input message="tns:WebMetOdczytajKonfigSoapIn" />
+      <wsdl:output message="tns:WebMetOdczytajKonfigSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WebMetOdczytajListęSklepów">
+      <wsdl:input message="tns:WebMetOdczytajListęSklepówSoapIn" />
+      <wsdl:output message="tns:WebMetOdczytajListęSklepówSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WebMetDostępDB">
+      <wsdl:input message="tns:WebMetDostępDBSoapIn" />
+      <wsdl:output message="tns:WebMetDostępDBSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PCPOS_DataFromSqlSoap" type="tns:PCPOS_DataFromSqlSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PcPosParagony">
+      <soap:operation soapAction="http://tempuri.org/PcPosParagony" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PcPosParDaty">
+      <soap:operation soapAction="http://tempuri.org/PcPosParDaty" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PcPosParItems">
+      <soap:operation soapAction="http://tempuri.org/PcPosParItems" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaSklepow">
+      <soap:operation soapAction="http://tempuri.org/ListaSklepow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WebMetOdczytajKonfig">
+      <soap:operation soapAction="http://tempuri.org/WebMetOdczytajKonfig" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WebMetOdczytajListęSklepów">
+      <soap:operation soapAction="http://tempuri.org/WebMetOdczytajListęSklepów" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WebMetDostępDB">
+      <soap:operation soapAction="http://tempuri.org/WebMetDostępDB" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PCPOS_DataFromSqlSoap12" type="tns:PCPOS_DataFromSqlSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PcPosParagony">
+      <soap12:operation soapAction="http://tempuri.org/PcPosParagony" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PcPosParDaty">
+      <soap12:operation soapAction="http://tempuri.org/PcPosParDaty" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PcPosParItems">
+      <soap12:operation soapAction="http://tempuri.org/PcPosParItems" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaSklepow">
+      <soap12:operation soapAction="http://tempuri.org/ListaSklepow" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WebMetOdczytajKonfig">
+      <soap12:operation soapAction="http://tempuri.org/WebMetOdczytajKonfig" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WebMetOdczytajListęSklepów">
+      <soap12:operation soapAction="http://tempuri.org/WebMetOdczytajListęSklepów" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WebMetDostępDB">
+      <soap12:operation soapAction="http://tempuri.org/WebMetDostępDB" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PCPOS_DataFromSql">
+    <wsdl:port name="PCPOS_DataFromSqlSoap" binding="tns:PCPOS_DataFromSqlSoap">
+      <soap:address location="http://localhost/PCPOS_WebServiceSqlData/PCPOS_DataFromSql.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PCPOS_DataFromSqlSoap12" binding="tns:PCPOS_DataFromSqlSoap12">
+      <soap12:address location="http://localhost/PCPOS_WebServiceSqlData/PCPOS_DataFromSql.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

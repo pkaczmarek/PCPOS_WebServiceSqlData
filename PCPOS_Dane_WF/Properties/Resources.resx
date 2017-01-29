@@ -1,0 +1,890 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="monk_passive_transcendence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_passive_transcendence.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\normal.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_sprint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_sprint.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awizard_passive_temporalflux" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awizard_passive_temporalflux.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_passive_tacticaladvantage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_passive_tacticaladvantage.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_companion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_companion.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sc2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\sc2.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="act43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\act43.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abarbarian_passive_inspiringpresence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\abarbarian_passive_inspiringpresence.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ademonhunter_passive_ballistics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\ademonhunter_passive_ballistics.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_passive_inspiringpresence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_passive_inspiringpresence.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_fistsofthunder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_fistsofthunder.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\sc.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_passive_beaconofytar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_passive_beaconofytar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\logo1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lowcam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\lowcam.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_blindingflash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_blindingflash.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_passive_superstition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_passive_superstition.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="witchdoctor_passive_gruesomefeast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\witchdoctor_passive_gruesomefeast.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mnichk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\mnichk.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_passive_brooding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_passive_brooding.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abarbarian_passive_relentless" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\abarbarian_passive_relentless.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="act31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\act31.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_impale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_impale.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rmah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\rmah.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_chakram" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_chakram.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awitchdoctor_passive_rushofessence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awitchdoctor_passive_rushofessence.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awitchdoctor_passive_fetishsycophants" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awitchdoctor_passive_fetishsycophants.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hardcore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\hardcore.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_wayofthehundredfists" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_wayofthehundredfists.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awitchdoctor_passive_graveinjustice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awitchdoctor_passive_graveinjustice.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_bolashot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_bolashot.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_passive_sharpshooter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_passive_sharpshooter.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_bash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_bash.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_evasivefire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_evasivefire.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_passive_ballistics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_passive_ballistics.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ademonhunter_passive_vengeance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\ademonhunter_passive_vengeance.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abarbarian_passive_ruthless" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\abarbarian_passive_ruthless.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awitchdoctor_passive_tribalrites" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awitchdoctor_passive_tribalrites.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ademonhunter_passive_culltheweak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\ademonhunter_passive_culltheweak.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ademonhunter_passive_thrillofthehunt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\ademonhunter_passive_thrillofthehunt.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="czarm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\czarm.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_passive_customengineering" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_passive_customengineering.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="amonk_passive_resolve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\amonk_passive_resolve.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awizard_passive_blur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awizard_passive_blur.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ademonhunter_passive_steadyaim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\ademonhunter_passive_steadyaim.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_passive_grenadier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_passive_grenadier.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_passive_onewitheverything" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_passive_onewitheverything.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="witchdoctor_passive_badmedicine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\witchdoctor_passive_badmedicine.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\logo4.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_passive_theguardianspath" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_passive_theguardianspath.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbam.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="witchdoctor_passive_junglefortitude" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\witchdoctor_passive_junglefortitude.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_multishot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_multishot.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="act23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\act23.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ademonhunter_passive_grenadier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\ademonhunter_passive_grenadier.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aramka okraglazczerwienia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\aramka okraglazczerwienia.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="act42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\act42.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_rend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_rend.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="witchdoctor_haunt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\witchdoctor_haunt.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ademonhunter_passive_nightstalker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\ademonhunter_passive_nightstalker.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="act11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\act11.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awizard_passive_galvanizingward" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awizard_passive_galvanizingward.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="amonk_passive_theguardianspath" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\amonk_passive_theguardianspath.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="witchdoctor_passive_fierceloyalty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\witchdoctor_passive_fierceloyalty.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="witchdoctor_passive_graveinjustice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\witchdoctor_passive_graveinjustice.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awizard_passive_prodigy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awizard_passive_prodigy.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\logo.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_shadowpower" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_shadowpower.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="czark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\czark.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="amonk_passive_sixthsense" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\amonk_passive_sixthsense.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_fanofknives" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_fanofknives.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="witchdoctor_horrify" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\witchdoctor_horrify.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="witchdoctor_locust_swarm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\witchdoctor_locust_swarm.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="actI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\actI.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ademonhunter_passive_perfectionist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\ademonhunter_passive_perfectionist.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abarbarian_passive_nervesofsteel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\abarbarian_passive_nervesofsteel.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_overpower" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_overpower.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_hungeringarrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_hungeringarrow.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_spiketrap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_spiketrap.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abarbarian_passive_boonofbulkathos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\abarbarian_passive_boonofbulkathos.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awitchdoctor_passive_spiritualattunement" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awitchdoctor_passive_spiritualattunement.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="amonk_passive_beaconofytar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\amonk_passive_beaconofytar.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="witchdoctor_passive_rushofessence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\witchdoctor_passive_rushofessence.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_passive_thrillofthehunt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_passive_thrillofthehunt.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_passive_exaltedsoul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_passive_exaltedsoul.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nightmare" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\nightmare.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_passive_berserkerrage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_passive_berserkerrage.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="amonk_passive_pacifism" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\amonk_passive_pacifism.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awizard_passive_coldblooded" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awizard_passive_coldblooded.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ah2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\ah2.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_hammeroftheancients" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_hammeroftheancients.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_battlerage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_battlerage.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awitchdoctor_passive_circleoflife" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awitchdoctor_passive_circleoflife.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_mystically" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_mystically.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\logo2.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awizard_passive_glasscannon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awizard_passive_glasscannon.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_passive_hotpursuit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_passive_hotpursuit.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="witchdoctor_passive_spiritualattunement" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\witchdoctor_passive_spiritualattunement.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="witchdoctor_passive_tribalrites" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\witchdoctor_passive_tribalrites.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_vault" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_vault.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abarbarian_passive_superstition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\abarbarian_passive_superstition.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="act21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\act21.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awizard_passive_arcanedynamo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awizard_passive_arcanedynamo.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_passive_pacifism" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_passive_pacifism.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_cyclonestrike" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_cyclonestrike.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="amonk_passive_neardeathexperience" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\amonk_passive_neardeathexperience.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="act13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\act13.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_passive_nervesofsteel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_passive_nervesofsteel.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awizard_passive_illusionist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awizard_passive_illusionist.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_groundstomp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_groundstomp.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_passive_steadyaim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_passive_steadyaim.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ademonhunter_passive_hotpursuit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\ademonhunter_passive_hotpursuit.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awizard_passive_evocation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awizard_passive_evocation.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_lashingtailkick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_lashingtailkick.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="amonk_passive_fleetfooted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\amonk_passive_fleetfooted.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_cripplingwave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_cripplingwave.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_mantraofretribution" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_mantraofretribution.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_markedfordeath" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_markedfordeath.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_ancientspear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_ancientspear.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="amonk_passive_guidinglight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\amonk_passive_guidinglight.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_ignorepain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_ignorepain.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abarbarian_passive_noescape" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\abarbarian_passive_noescape.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="amonk_passive_chantofresonance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\amonk_passive_chantofresonance.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awitchdoctor_passive_piercetheveil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awitchdoctor_passive_piercetheveil.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_passive_weaponsmaster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_passive_weaponsmaster.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lowcak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\lowcak.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awizard_passive_unstableanomaly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awizard_passive_unstableanomaly.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awizard_passive_conflagration" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awizard_passive_conflagration.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_elementalarrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_elementalarrow.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="szamank32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\szamank32.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rmah2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\rmah2.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_furiouscharge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_furiouscharge.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="act32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\act32.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mnichm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\mnichm.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="witchdoctor_acidcloud" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\witchdoctor_acidcloud.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_seismicslam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_seismicslam.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_strafe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_strafe.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abarbarian_passive_brawler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\abarbarian_passive_brawler.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_passive_boonofbulkathos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_passive_boonofbulkathos.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="witchdoctor_passive_circleoflife" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\witchdoctor_passive_circleoflife.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_passive_seizetheinitiative" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_passive_seizetheinitiative.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_passive_archery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_passive_archery.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ademonhunter_passive_customengineering" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\ademonhunter_passive_customengineering.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abarbarian_passive_weaponsmaster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\abarbarian_passive_weaponsmaster.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awitchdoctor_passive_spiritvessel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awitchdoctor_passive_spiritvessel.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_passive_poundofflesh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_passive_poundofflesh.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_clusterarrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_clusterarrow.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_whirlwind" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_whirlwind.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pvp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\pvp1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ademonhunter_passive_brooding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\ademonhunter_passive_brooding.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_mantraofconviction" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_mantraofconviction.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_passive_juggernaut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_passive_juggernaut.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ademonhunter_passive_sharpshooter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\ademonhunter_passive_sharpshooter.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="witchdoctor_passive_spiritvessel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\witchdoctor_passive_spiritvessel.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_rainofvengeance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_rainofvengeance.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smok2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\smok2.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_passive_unforgiving" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_passive_unforgiving.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awizard_passive_powerhungry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awizard_passive_powerhungry.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ademonhunter_passive_archery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\ademonhunter_passive_archery.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="szamanm32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\szamanm32.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abarbarian_passive_animosity" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\abarbarian_passive_animosity.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_passive_perfectionist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_passive_perfectionist.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_sentry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_sentry.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="amonk_passive_combinationstrike" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\amonk_passive_combinationstrike.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_sweepingwind" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_sweepingwind.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awizard_passive_astralpresence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awizard_passive_astralpresence.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_breathofheaven" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_breathofheaven.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_passive_sixthsense" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_passive_sixthsense.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_preparation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_preparation.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_mantraofhealing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_mantraofhealing.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_passive_relentless" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_passive_relentless.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awitchdoctor_passive_bloodritual" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awitchdoctor_passive_bloodritual.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awitchdoctor_passive_junglefortitude" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awitchdoctor_passive_junglefortitude.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_grenades" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_grenades.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awizard_passive_paralysis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awizard_passive_paralysis.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_passive_guidinglight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_passive_guidinglight.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_tempestrush" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_tempestrush.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_passive_nightstalker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_passive_nightstalker.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_passive_brawler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_passive_brawler.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="witchdoctor_fetisharmy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\witchdoctor_fetisharmy.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_frenzy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_frenzy.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_passive_culltheweak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_passive_culltheweak.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="witchdoctor_bigbadvoodoo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\witchdoctor_bigbadvoodoo.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_wrathoftheberserker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_wrathoftheberserker.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_dashingstrike" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_dashingstrike.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="witchdoctor_massconfusion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\witchdoctor_massconfusion.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_earthquake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_earthquake.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abarbarian_passive_juggernaut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\abarbarian_passive_juggernaut.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_waveoflight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_waveoflight.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_weaponthrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_weaponthrow.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_passive_vengeance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_passive_vengeance.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awizard_passive_criticalmass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awizard_passive_criticalmass.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_deadlyreach" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_deadlyreach.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_innersanctuary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_innersanctuary.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_cleave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_cleave.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="witchdoctor_firebats" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\witchdoctor_firebats.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_passive_neardeathexperience" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_passive_neardeathexperience.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_rapidfire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_rapidfire.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\hell.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awitchdoctor_passive_badmedicine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awitchdoctor_passive_badmedicine.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="witchdoctor_passive_piercetheveil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\witchdoctor_passive_piercetheveil.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_passive_chantofresonance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_passive_chantofresonance.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="actII" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\actII.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awitchdoctor_passive_gruesomefeast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awitchdoctor_passive_gruesomefeast.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_passive_bloodthirst" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_passive_bloodthirst.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abarbarian_passive_toughasnails" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\abarbarian_passive_toughasnails.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smok1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\smok1.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hc2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\hc2.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="witchdoctor_hex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\witchdoctor_hex.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_smokescreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_smokescreen.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="act41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\act41.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_passive_toughasnails" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_passive_toughasnails.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="amonk_passive_onewitheverything" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\amonk_passive_onewitheverything.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ademonhunter_passive_numbingtraps" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\ademonhunter_passive_numbingtraps.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_entanglingshot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_entanglingshot.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\logo3.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_leap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_leap.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_passive_combinationstrike" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_passive_combinationstrike.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_explodingpalm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_explodingpalm.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_passive_numbingtraps" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_passive_numbingtraps.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demonhunter_caltrops" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\demonhunter_caltrops.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="witchdoctor_firebomb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\witchdoctor_firebomb.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_sevensidedstrike" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_sevensidedstrike.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pvp2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\pvp2.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="witchdoctor_passive_bloodritual" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\witchdoctor_passive_bloodritual.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="witchdoctor_gargantuan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\witchdoctor_gargantuan.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abarbarian_passive_bloodthirst" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\abarbarian_passive_bloodthirst.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_passive_fleetfooted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_passive_fleetfooted.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_threateningshout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_threateningshout.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_passive_noescape" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_passive_noescape.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="witchdoctor_corpsespider" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\witchdoctor_corpsespider.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_mantraofevasion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_mantraofevasion.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_revenge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_revenge.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="act33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\act33.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inferno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\inferno.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_serenity" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_serenity.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="amonk_passive_seizetheinitiative" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\amonk_passive_seizetheinitiative.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abarbarian_passive_poundofflesh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\abarbarian_passive_poundofflesh.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monk_passive_resolve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\monk_passive_resolve.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awitchdoctor_passive_visionquest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awitchdoctor_passive_visionquest.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbak.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awitchdoctor_passive_zombiehandler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awitchdoctor_passive_zombiehandler.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\hc.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="witchdoctor_graspofthedead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\witchdoctor_graspofthedead.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_passive_ruthless" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_passive_ruthless.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ademonhunter_passive_tacticaladvantage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\ademonhunter_passive_tacticaladvantage.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="awitchdoctor_passive_fierceloyalty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\awitchdoctor_passive_fierceloyalty.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abarbarian_passive_berserkerrage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\abarbarian_passive_berserkerrage.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_warcry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_warcry.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="witchdoctor_passive_fetishsycophants" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\witchdoctor_passive_fetishsycophants.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="softcore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\softcore.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abarbarian_passive_unforgiving" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\abarbarian_passive_unforgiving.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\ah.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barbarian_passive_animosity" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\barbarian_passive_animosity.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="sap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Res\ico\sap.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
