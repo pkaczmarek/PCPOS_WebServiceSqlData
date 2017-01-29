@@ -23,6 +23,7 @@ namespace PCPOS_WebServiceSqlData
         {
             get { return dbname; }
             set { dbname = value; }
+            //zmiana repozytorium git ???
         }
 
         public string UserId
