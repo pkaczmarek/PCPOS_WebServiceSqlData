@@ -23,13 +23,14 @@ namespace PCPOS_WebServiceSqlData
         {
             get { return dbname; }
             set { dbname = value; }
-            //zmiana repozytorium git ???
+            
         }
 
         public string UserId
         {
             get { return userid; }
             set { userid = value; }
+            //zmiana repozytorium git ???
         }
         public string Password
         {
